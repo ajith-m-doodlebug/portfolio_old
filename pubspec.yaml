@@ -1,0 +1,47 @@
+name: fluttertry
+description: Ajith M 's portfolio website.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  center_webview:
+  responsive_builder: ^0.3.0
+  dwds: ^6.0.0
+  url_launcher: ^5.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+  fonts:
+    - family: ClickerScript
+      fonts:
+         - asset: assets/ClickerScript-Regular.ttf
+
+    - family: RobotoRegular
+      fonts:
+         - asset: assets/Roboto-Regular.ttf
+
+    - family: RobotoLight
+      fonts:
+           - asset: assets/Roboto-Light.ttf
+
+
+
+
+
